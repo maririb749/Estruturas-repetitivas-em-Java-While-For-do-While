@@ -6,6 +6,12 @@ public class estrutura_for {
 
 	public static void main(String[] args) {
 
+		/*
+		 * Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao
+		 * final, mostrar a soma dos N números lidos.
+		 * 
+		 */
+
 		Scanner sc = new Scanner(System.in);
 
 		int N = sc.nextInt();
