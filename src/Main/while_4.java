@@ -14,7 +14,7 @@ public class while_4 {
 		 * quando pelo menos uma de duas coordenadas for NULA (nesta situação sem
 		 * escrever mensagem alguma).
 		 */
-         Locale.setDefault(Locale.US);
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
 		int x, y;
@@ -26,20 +26,15 @@ public class while_4 {
 		while (x != 0 && y != 0) {
 			if (x > 0 && y > 0) {
 				System.out.println("QUADRANTE Q1");
-			} 
-			else if (x < 0 && y > 0) {
+			} else if (x < 0 && y > 0) {
 				System.out.println("QUADRANTE Q2");
-			} 
-			else if (x < 0 && y < 0) {
+			} else if (x < 0 && y < 0) {
 				System.out.println("QUADRANTE Q3");
-			} 
-			else  {
+			} else {
 				System.out.println("QUADRANTE Q4");
 			}
 
-		
-
-		System.out.println("Digite os valores das coordenadas x e y:");
+			System.out.println("Digite os valores das coordenadas x e y:");
 			x = sc.nextInt();
 			y = sc.nextInt();
 		}
