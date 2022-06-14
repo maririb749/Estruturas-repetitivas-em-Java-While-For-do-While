@@ -1,6 +1,6 @@
 package Main;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Estrutura_while {
@@ -12,7 +12,7 @@ public class Estrutura_while {
 		 * mostrar a soma dos números.
 		 */
 
-		Locale.setDefault(Locale.US);
+		
 		Scanner sc = new Scanner(System.in);
 
 		int x = sc.nextInt();
